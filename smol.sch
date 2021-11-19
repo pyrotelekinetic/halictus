@@ -2087,4 +2087,11 @@ Text GLabel 3900 5650 2    50   Input ~ 0
 COL13
 Text GLabel 3900 5750 2    50   Input ~ 0
 COL14
+NoConn ~ 3900 5850
+NoConn ~ 3900 5950
+NoConn ~ 3900 6050
+NoConn ~ 3900 6150
+NoConn ~ 3900 6250
+NoConn ~ 3900 6350
+NoConn ~ 3200 4750
 $EndSCHEMATC
