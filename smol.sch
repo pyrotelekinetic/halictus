@@ -1844,14 +1844,6 @@ Connection ~ 8750 2350
 Connection ~ 8750 2900
 Connection ~ 8750 3450
 Connection ~ 8750 4000
-NoConn ~ 3900 5250
-NoConn ~ 3900 6550
-NoConn ~ 3900 6750
-NoConn ~ 3900 6850
-NoConn ~ 3900 6950
-NoConn ~ 2900 5750
-NoConn ~ 2900 5950
-NoConn ~ 2900 6050
 NoConn ~ 3700 4750
 Connection ~ 9350 4000
 Wire Wire Line
@@ -2012,43 +2004,38 @@ F 3 "~" H 2950 2900 50  0001 C CNN
 	1    2950 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 5650 0    50   Input ~ 0
+Text GLabel 3900 5750 2    50   Input ~ 0
 ROW1
 Text GLabel 1550 1800 0    50   Input ~ 0
 ROW1
-Text GLabel 2900 5450 0    50   Input ~ 0
+Text GLabel 3900 5650 2    50   Input ~ 0
 ROW2
-Text GLabel 2900 5350 0    50   Input ~ 0
+Text GLabel 3900 5450 2    50   Input ~ 0
 ROW3
-Text GLabel 2900 5250 0    50   Input ~ 0
+Text GLabel 3900 5350 2    50   Input ~ 0
 ROW4
-Text GLabel 2900 5150 0    50   Input ~ 0
+Text GLabel 3900 5150 2    50   Input ~ 0
 ROW5
-Text GLabel 2900 5850 0    50   Input ~ 0
+Text GLabel 3900 5850 2    50   Input ~ 0
 COL1
-Text GLabel 2900 6150 0    50   Input ~ 0
+Text GLabel 3900 5950 2    50   Input ~ 0
 COL2
-Text GLabel 2900 6350 0    50   Input ~ 0
+Text GLabel 3900 6050 2    50   Input ~ 0
 COL3
-Text GLabel 2900 6450 0    50   Input ~ 0
+Text GLabel 3900 6150 2    50   Input ~ 0
 COL4
-Text GLabel 2900 6550 0    50   Input ~ 0
+Text GLabel 3900 6250 2    50   Input ~ 0
 COL5
-Text GLabel 2900 6650 0    50   Input ~ 0
+Text GLabel 3900 6350 2    50   Input ~ 0
 COL6
-Text GLabel 2900 6750 0    50   Input ~ 0
+Text GLabel 2900 6950 0    50   Input ~ 0
 COL7
 Text GLabel 2900 6850 0    50   Input ~ 0
 COL8
-Text GLabel 2900 6950 0    50   Input ~ 0
+Text GLabel 2900 6750 0    50   Input ~ 0
 COL9
-Text GLabel 3900 5650 2    50   Input ~ 0
+Text GLabel 2900 6450 0    50   Input ~ 0
 COL12
-NoConn ~ 3900 5950
-NoConn ~ 3900 6050
-NoConn ~ 3900 6150
-NoConn ~ 3900 6250
-NoConn ~ 3900 6350
 Text GLabel 5950 4850 0    50   Input ~ 0
 RGB_DIN
 $Comp
@@ -2754,14 +2741,26 @@ Wire Wire Line
 Connection ~ 4900 7150
 Wire Wire Line
 	4900 7150 5200 7150
-Text GLabel 3900 5150 2    50   Input ~ 0
+Text GLabel 2900 5850 0    50   Input ~ 0
 RGB
-Text GLabel 3900 5450 2    50   Input ~ 0
+Text GLabel 2900 6350 0    50   Input ~ 0
 COL13
-Text GLabel 3900 5750 2    50   Input ~ 0
+Text GLabel 2900 6550 0    50   Input ~ 0
 COL11
-Text GLabel 3900 5350 2    50   Input ~ 0
+Text GLabel 2900 6150 0    50   Input ~ 0
 COL14
-Text GLabel 3900 5850 2    50   Input ~ 0
+Text GLabel 2900 6650 0    50   Input ~ 0
 COL10
+NoConn ~ 3900 5250
+NoConn ~ 3900 6550
+NoConn ~ 3900 6750
+NoConn ~ 3900 6850
+NoConn ~ 3900 6950
+NoConn ~ 2900 5750
+NoConn ~ 2900 5950
+NoConn ~ 2900 6050
+NoConn ~ 2900 5450
+NoConn ~ 2900 5350
+NoConn ~ 2900 5250
+NoConn ~ 2900 5150
 $EndSCHEMATC
