@@ -2763,4 +2763,78 @@ Text GLabel 2900 6350 0    50   Input ~ 0
 COL9
 Text GLabel 2900 6150 0    50   Input ~ 0
 COL8
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61CF4505
+P 1000 4900
+F 0 "H1" H 1100 4949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1100 4858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 1000 4900 50  0001 C CNN
+F 3 "~" H 1000 4900 50  0001 C CNN
+	1    1000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61CF5657
+P 1000 5250
+F 0 "H2" H 1100 5299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1100 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 1000 5250 50  0001 C CNN
+F 3 "~" H 1000 5250 50  0001 C CNN
+	1    1000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61D03BDB
+P 1000 5600
+F 0 "H3" H 1100 5649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1100 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 1000 5600 50  0001 C CNN
+F 3 "~" H 1000 5600 50  0001 C CNN
+	1    1000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61D1210B
+P 1000 5950
+F 0 "H4" H 1100 5999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1100 5908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 1000 5950 50  0001 C CNN
+F 3 "~" H 1000 5950 50  0001 C CNN
+	1    1000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61D4A21A
+P 750 6250
+F 0 "#PWR0101" H 750 6000 50  0001 C CNN
+F 1 "GND" H 755 6077 50  0000 C CNN
+F 2 "" H 750 6250 50  0001 C CNN
+F 3 "" H 750 6250 50  0001 C CNN
+	1    750  6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5000 750  5000
+Wire Wire Line
+	750  5000 750  5350
+Wire Wire Line
+	1000 5350 750  5350
+Connection ~ 750  5350
+Wire Wire Line
+	750  5350 750  5700
+Wire Wire Line
+	1000 5700 750  5700
+Connection ~ 750  5700
+Wire Wire Line
+	750  5700 750  6050
+Wire Wire Line
+	1000 6050 750  6050
+Connection ~ 750  6050
+Wire Wire Line
+	750  6050 750  6250
 $EndSCHEMATC
