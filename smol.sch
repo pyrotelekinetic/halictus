@@ -2837,4 +2837,5 @@ Wire Wire Line
 Connection ~ 750  6050
 Wire Wire Line
 	750  6050 750  6250
+NoConn ~ 2900 5650
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name Blackpill)(type KiCad)(uri "${KIPRJMOD}/blackpill-symbols/Footprint Library.pretty")(options "")(descr ""))
+  (lib (name libraries)(type KiCad)(uri ${KIPRJMOD}/libraries)(options "")(descr ""))
 )
